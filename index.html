@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>  
+    <title>Todo Lists</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/todo-list.css">
+    <link rel="stylesheet" href="styles/task-group.css">
+    <link rel="stylesheet" href="styles/task.css">
+
+  </head>
+  <body>
+    <div class="sidebar"> Sidebar </div>
+    <div class="todo-list">
+      <div class="task-group">
+        <input type="textarea" wrap="soft" cols="20" placeholder="Task Group Title" class="task-group-title"> 
+        <div class="task">
+          <input type="checkbox" class="task-checkbox">
+          <input type="textarea" wrap="soft" cols="30" placeholder="Task" class="task-text">
+          <button class="delete-button">
+            <img class="small-icon" src="images/delete.png">
+          </button>
+        </div>
+        <div class="task">
+          <input type="checkbox" class="task-checkbox">
+          <input type="textarea" wrap="soft" cols="30" placeholder="Task" class="task-text">
+          <button class="delete-button">
+            <img class="small-icon" src="images/delete.png">
+          </button>
+        </div>
+        <div class="task">
+          <input type="checkbox" class="task-checkbox">
+          <input type="textarea" wrap="soft" cols="30" placeholder="Task" class="task-text">
+          <button class="delete-button">
+            <img class="small-icon" src="images/delete.png">
+          </button>
+        </div>
+      </div>
+      <div class="task-group">
+        <h2>group 2</h2> 
+        <div class="task">
+          Task1
+        </div>
+        <div class="task">
+          Task2
+        </div>
+        <div class="task">
+          Task3
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script> 
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="like_button.js"></script>
+  </body>
+</html>
